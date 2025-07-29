@@ -1,0 +1,22 @@
+# .gitignore content
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store# .gitignore content
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# Common large model file types (add any specific ones you have)
+*.bin
+*.ggml
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+/model/ # If you have a dedicated 'model' directory for large files
